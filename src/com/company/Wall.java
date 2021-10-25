@@ -39,7 +39,6 @@ public class Wall {
     } else {
       this.width = 0;
     }
-
   }
 
   public void setHeight(double height) {
