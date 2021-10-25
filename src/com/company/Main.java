@@ -10,6 +10,13 @@ public class Main {
     - tbh this won't be good testing at all I won't do all base cases etc just enough to debug
      */
     public static void main(String[] args) {
-	// write your code here
+
+        Wall wall = new Wall(-1, 10);
+
+        System.out.println(wall.getWidth() + " " + wall.getHeight());
+
+        wall.setWidth(50);
+
+        System.out.println(wall.getWidth());
     }
 }
