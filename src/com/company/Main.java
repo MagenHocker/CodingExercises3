@@ -11,12 +11,12 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        Wall wall = new Wall(-1, 10);
-
-        System.out.println(wall.getWidth() + " " + wall.getHeight());
-
-        wall.setWidth(50);
-
-        System.out.println(wall.getWidth());
+//        Wall wall = new Wall(-1, 10);
+//
+//        System.out.println(wall.getWidth() + " " + wall.getHeight());
+//
+//        wall.setWidth(50);
+//
+//        System.out.println(wall.getWidth());
     }
 }
